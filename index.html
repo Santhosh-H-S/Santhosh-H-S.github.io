@@ -1,0 +1,201 @@
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="new_css.css">
+        <title>Santhosh H S's Portfolio</title>
+        <!--link template,fonts from different platform-->
+        <script src="https://kit.fontawesome.com/c8e4d183c2.js"></script>
+    </head>
+
+    <body>
+
+    <section>
+
+        <nav class="navbar">
+            <a href="#"><img src="logoimg2.PNG" alt="sorry_logo" border="0"  height="62" width="200"></a>
+            <ul id="list">
+                <li><a href="#homeid" >HOME</a></li>
+                <li><a href="#aboutid" >ABOUT</a></li>
+                <li><a href="#myskillid" >SKILLS</a></li>
+                <li><a href="#accid" >ACCOMPLISHMENTS</a></li>
+                <li><a href="#contid" >CONTACT</a></li>
+            </ul>
+            <a href="#navbar" class="toggle-button" id="togg">
+                <span class='t-butt'></span>
+                <span class='t-butt'></span>
+                <span class='t-butt'></span>
+            </a>
+
+            
+            
+        </nav>
+        <div  class="text-container">
+            <p id ="te">Hello,</p>
+            <p id ="te1"> I'M SANTHOSH H S</p>
+            <!----Edit the following thing after time-->
+            <p id ="te2">I am a hardworking Engineering student<br> currently pursuing 3rd year<br> Electronics and Communication Engineering <br>at NIE,Mysuru.</p>
+        </div>
+        <div><img class="model" id="slide" alt="sorry" height="600" width="550"></div>
+        
+            <script>
+                var clic=document.getElementById("togg");
+                var tex=document.getElementById("te");
+                var tex1=document.getElementById("te1");
+                var tex2=document.getElementById("te2");
+                var lis=document.getElementById("list");
+                
+                count=2;
+                clic.addEventListener("click",display);
+                function display(){
+                    if (count%2==0){
+                    tex.style.color="rgba(0,0,0,0.03)";
+                    tex1.style.color="rgba(0,0,0,0.03)";
+                    tex2.style.color="rgba(0,0,0,0.03)";
+                    lis.style.display="flex";
+                    }
+                    else{
+                        lis.style.display="none";
+                        tex.style.color="#6d6d6d";
+                        tex1.style.color="#1a1a1a";
+                        tex2.style.color="#403e3e";
+                    }
+                    count=count+1;
+                }
+                
+
+                var im=document.getElementById("slide");
+                var image=[];
+                image[0]='i3.jpg';
+                image[1]='i1.jpg';
+                image[2]='i2.jpg';
+                
+                var i=0;
+                var time=2000;
+                function sl(){
+                
+                im.src= image[i];
+                 if(i<image.length-1){
+                  i++;}
+                
+                else{
+                    i=0;}
+                
+                setTimeout("sl()", time);
+                }
+               window.onload=sl;    
+               im.addEventListener("mouseover",big);
+               function big(){
+                   im.width="600";
+                   im.height="660";
+               }
+               im.addEventListener("mouseout",small);
+               function small(){
+                   im.width="550";
+                   im.height="600";
+               }
+              var home=document.getElementById("H");
+              var res=document.getElementById("R");
+              var ha=document.getElementById("HA");
+              var ex=document.getElementById("E");
+            </script>
+
+
+    </section>
+
+    <div id="aboutid" class="about-container">
+        <img src="i4.jpg" alt="sorry">
+        <!---about_text--->
+        <div class="about-text">
+            <p>About Me</p>
+            <p>E&C Engineering Student</p>
+            <p>My name is Santhosh H S, and my portfolio is a representation of all that I've learned and accomplished as an engineering student</p><p>My personal opinion on education and learning is like that i belive more in practicals than theory,By Working with my classmates,all of us can create an ideal environment for education,safety,understanding,and even fun</p><p>By keeping things positive.I am pretty sure about future AI World,that's why I am proud and enjoying in lerning Machine Learning,Artificisl Intelligence and also I have good programming skills in c,c++ and Python.Iam looking for more opportunities to work in Deploying AI in Hardware</p>
+        </div>
+    </div>
+
+    <div class="skill" id="myskillid" >
+        <div class='my_skill'> My Skills </div>
+        <div class="box"><p class="t">C & C++</p></div>
+        <div class="box"><p class="t1">Python</p></div>
+        <div class="box"><p class="t2">ML & AI</p></div>
+        <div class="box"><p class="t3">HTML-CSS</p></div>
+        <div class="box"><p class="t4">Verilog</p></div>
+   </div> 
+
+
+   <!--Accomplishment-->
+   <div class="accomplishment"  id="accid"> 
+
+    <div class="my_accomplishment">Accomplishments</div> 
+
+    <div class="box_co">
+        <div class="accb"><h1 class="heading">Certificates</h1>
+         <hr style="margin-top:-6px" width="250">
+     <ol><li><a href="#">Crash Course On Python - Coursera&Google</a></li>
+         <li><a href="#">Code Warriors Game of Data AI Challenge - Dockship</a></li>
+         <li><a href="#">Programming For Everybody Python - Coursera</a></li>
+         <li><a href="#">Python Data Structure - Coursera</a></li>
+         <li><a href="#">Elearning Programme On Machine Learning - Tata Steel</a></li></ol> 
+          
+     </div>
+
+        <div class="accb"><h1 class="heading">Projects<h1>
+         <hr style="margin-top:-6px" width="250">
+         <ol><li><a href="#">Calculator Web Page - HTML,CSS</a></li>
+             <li><a href="#">Real Time Moving Object Detection - python,cv2</a></li>
+             <li><a href="#">Hangman Game - Python</a></li>
+             <li><a href="#">Image Classification Of 1)Food Items 2)Butterfly Species 3)Fashion MNIST Using Neural Networks</a></li>
+             <li><a href="#">Titanic Ship Survival Prediction - ML</a></li>
+             <li><a href="#">Housing Price Prediction , Car Price Prediction Linear Regression Model- ML</a></li>
+             <li><a href="#">Digit Recognition Model using Keras</a></li></ol>
+     </div> 
+
+        <div class="accb"><h1 class="heading">Experience</h1>
+         <hr style="margin-top:-6px"  width="250">
+         <ol><li><a href="#">----NA----</a></li>
+             <li><a href="#">----NA----</a></li>
+         </ol>
+     </div>
+
+    </div>
+</div>
+
+   <div class="contact-me" id="contid">
+    <h2>Contact Me</h2>
+    <hr style="margin-top:-5px" width="300">
+    <p><a href="#"><img src="loc.png" controls width="45"></a>Koorgalli,Mysore(D),Karnataka</p>
+    <p><a href="#"><img src="call.jpg" controls width="45"></a>Phone:6360819771</p>
+    <p><a href="mailto:sureshbhagya05@gmail.com"><img src="mail.png" controls width="45"></a>Email: santhoshhs453@gmail.com</p>
+
+    </div>
+
+    <footer>
+        <p>Santhosh H S</p>
+        <div class="social-icons">
+           <a href="#"><i class="fab fa-instagram"></i></a>
+           <a href="#"><i class="fab fa-twitter"></i></a>
+           <a href="#"><i class="fab fa-facebook-f"></i></a>
+           <a href="#"><i class="fab fa-linkedin"></i></a>
+           <a href="#"><i class="fab fa-github"></i></a>
+        </div>
+        <!--copyright-->
+        <p class="copyright">Copyright by Santhosh H S</p>
+    </footer>
+
+    <!--attac social bar-->
+    <div class="social-b">
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-github"></i></a>
+    </div>
+
+    </body>
+
+
+
+
+
+</html>    
