@@ -501,6 +501,7 @@ h2{
             padding:0px 2%;
         }
         nav ul{
+            position:relative;
             width:100%;
             margin-top:300px;
             margin-left:5% ;
