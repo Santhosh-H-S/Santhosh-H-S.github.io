@@ -590,7 +590,7 @@ h2{
                 line-height:0px;
                 margin:25px 2px 25px;
             }
-            .text-containeer a{
+            .text-containeer a button {
                 margin-left:25%;
                 }
             .model{
@@ -600,7 +600,7 @@ h2{
                 margin-left:5px;
                 margin-right:5px;
                 width:95%;
-                height:53%;}
+                height:55%;}
 
                 .about-container{
                     width:100%;
