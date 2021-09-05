@@ -503,7 +503,7 @@ h2{
 @media only screen and (max-width:1000px){
     section{
         width:100%;
-        height:125vh;
+        height:123vh;
         background-repeat:no-repeat;
         background-size: cover;
         position: relative;}
@@ -591,7 +591,7 @@ h2{
                 margin:25px 2px 25px;
             }
             .text-containeer a{
-                display:block;
+                margin-left:25%;
                 }
             .model{
                 position: absolute;
@@ -600,7 +600,7 @@ h2{
                 margin-left:5px;
                 margin-right:5px;
                 width:95%;
-                height:50%;}
+                height:53%;}
 
                 .about-container{
                     width:100%;
@@ -609,7 +609,7 @@ h2{
                     border-radius: 30px;
                     box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
                     display: flex;
-                    margin: 10px 0px 5px 0px ;
+                    margin: 5px 0px 5px 0px ;
                     position: relative;
                     justify-content:flex-start;
                     align-items: center;
