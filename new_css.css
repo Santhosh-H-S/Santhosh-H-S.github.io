@@ -590,7 +590,7 @@ h2{
                 line-height:0px;
                 margin:25px 2px 25px;
             }
-            .text-container p:nth-child(4){
+            .text-container p:a:button{
                display:block;
             }
             .model{
@@ -600,7 +600,7 @@ h2{
                 margin-left:5px;
                 margin-right:5px;
                 width:95%;
-                height:60%;}
+                height:55%;}
 
                 .about-container{
                     width:100%;
@@ -609,7 +609,7 @@ h2{
                     border-radius: 30px;
                     box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
                     display: flex;
-                    margin: 5px 0px 5px 0px ;
+                    margin: 10px 0px 5px 0px ;
                     position: relative;
                     justify-content:flex-start;
                     align-items: center;
