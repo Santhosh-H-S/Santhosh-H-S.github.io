@@ -212,7 +212,7 @@ nav ul li a{
 }
 .box_co{
     width: 90%;
-    height:90%;
+    height:80%;
     background-color: #FFFFFF;
     border-radius: 20px;
     display: flex;
@@ -224,7 +224,7 @@ nav ul li a{
     color:rgba(240,75,40,0.8);
     margin:10px auto 10px 25px;
     width:80%;
-    height:90%;
+    height:80%;
 }
 .accb h1{
     text-align: center;
