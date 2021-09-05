@@ -202,7 +202,7 @@ nav ul li a{
 
 .accomplishment{
     width: 80%;
-    height:640px;
+    height:700px;
     background-color: #FFFFFF;
     border-radius: 20px;
     box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
@@ -212,7 +212,7 @@ nav ul li a{
 }
 .box_co{
     width: 90%;
-    height:90%;
+    height:100%;
     background-color: #FFFFFF;
     border-radius: 20px;
     display: flex;
