@@ -503,7 +503,7 @@ h2{
 @media only screen and (max-width:1000px){
     section{
         width:100%;
-        height:120vh;
+        height:125vh;
         background-repeat:no-repeat;
         background-size: cover;
         position: relative;}
@@ -590,9 +590,9 @@ h2{
                 line-height:0px;
                 margin:25px 2px 25px;
             }
-            .text-container p:a:button{
-               display:block;
-            }
+            .text-containeer a{
+                display:block;
+                }
             .model{
                 position: absolute;
                 border-style: groove;
@@ -600,7 +600,7 @@ h2{
                 margin-left:5px;
                 margin-right:5px;
                 width:95%;
-                height:55%;}
+                height:50%;}
 
                 .about-container{
                     width:100%;
