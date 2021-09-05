@@ -61,7 +61,7 @@ nav ul li a{
 
 .about-container{
     width: 80%;
-    height:420px;
+    height:460px;
     background-color: #FFFFFF;
     border-radius: 20px;
     box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
@@ -72,8 +72,8 @@ nav ul li a{
     align-items: center;
 }
 .about-container img{
-    height: 300px;
-    width:280px;
+    height: 320px;
+    width:260px;
     border-radius: 5px;
     border-left-color:black;
     border-left-width: 13px;
