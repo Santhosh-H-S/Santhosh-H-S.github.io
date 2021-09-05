@@ -597,6 +597,7 @@ h2{
                 position: absolute;
                 border-style: groove;
                 border-radius: 15px;
+                margin-top:5px;
                 margin-left:5px;
                 margin-right:5px;
                 width:95%;
